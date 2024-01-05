@@ -8,7 +8,7 @@ describe('LoginPage', () => {
     render(<LoginPage />);
     expect(screen.getByLabelText(/Benutzername/i)).toBeInTheDocument();
     expect(screen.getByLabelText(/Passwort/i)).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: /einloggen/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /xPans!/i })).toBeInTheDocument();
   });
 
   test('allows entering username and password', () => {

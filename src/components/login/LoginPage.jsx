@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './LoginPage.css'; 
-import logo from '../logo/Logo';
+import Logo from '../logo/Logo';
 
 
 const LoginPage = () => {
@@ -15,7 +15,7 @@ const LoginPage = () => {
   return (
     <div className="login-container">
       <form onSubmit={handleSubmit}>
-        <img src={logo} alt="Logo" className="logo"/>
+        <Logo />
         <div>
           <label htmlFor="username">Benutzername:</label>
           <input
