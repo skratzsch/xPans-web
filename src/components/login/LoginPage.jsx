@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './LoginPage.css'; 
-import logo from './xPans.png';
+import logo from '../logo/Logo';
 
 
 const LoginPage = () => {
