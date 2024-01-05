@@ -8,4 +8,9 @@ describe('Logo Component', () => {
     const logoImage = getByAltText(/logo/i); // Assumes alt text contains 'logo'
     expect(logoImage).toBeInTheDocument();
   });
+  it('has the logo class', () => {
+    const { getByAltText } = render(<Logo />);
+    const logoImage = getByAltText(/logo/i);
+    expect(logoImage).toHaveClass('logo');
+  });
 });
