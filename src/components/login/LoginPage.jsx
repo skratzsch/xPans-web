@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './LoginPage.css'; 
-import logo from './xPans.png'; // Pfad anpassen, falls erforderlich
+import logo from './xPans.png';
 
 
 const LoginPage = () => {
